@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std; 
+int main(){
+    int n,  a , b , c , d; 
+    cin>>n; 
+    while(n > 0){
+  cin>> a >> b>> c>> d; 
+    if(a == b && b == c && c == d && d == a){
+        cout<<"YES"<<endl;
+
+    }
+    else cout<<"NO"<<endl;
+        n--; 
+    }
+    
+   
+}
